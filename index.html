@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <button id="addNewContact">Add new contact</button>
+        <form action="" name="addNew" class="jumbotron d-none" id="addForm">
+            <table class="row">
+                <tr>
+                    <td>
+                        <label for="Inp name">Name: </label>
+
+                    </td>
+                    <td>
+                        <input type="name" name="Inp name" id="inpName" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="inp phone">Phone: </label>
+                    </td>
+                    <td>
+                        <input type="tel" name="inp phone" id="inpPhone" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email: </label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="inpEmail" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="location">Location: </label>
+                    </td>
+                    <td>
+                        <input type="location" name="location" id="inpLocation" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="web site">Web site: </label>
+                    </td>
+                    <td>
+                        <input type="url" name="web site" id="inpWebSite" required>
+                    </td>
+                </tr>
+            </table>
+
+            <input type="submit" id="inpSubmit" value="Submit">
+        </form>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

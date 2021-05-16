@@ -1,0 +1,25 @@
+.details li {
+    list-style: none;
+  }
+
+li {
+    margin-bottom:10px;
+      
+}
+
+table tr td {
+    padding-left: 10px;
+}
+
+.d-none {
+display: none;
+}
+
+.deleteContact{
+    position: absolute;
+    right: 10px;
+}
+
+.jumbotron{
+    position: relative;
+}
